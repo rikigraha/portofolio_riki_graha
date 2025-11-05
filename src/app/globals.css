@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Rounded big card */
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+/* shadow 2xl lebih lembut */
+.shadow-2xl {
+  box-shadow: 0 30px 60px rgba(2,6,23,0.25);
+}
