@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 Portfolio Website - Riki Graha
 
-## Getting Started
+> Personal portfolio website built with **Next.js 16**  designed to showcase my skills, projects, experiences, and personality in a modern, responsive, and user-friendly way.
 
-First, run the development server:
+![alt text](image.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project is organized using Next.js App Router structure. Key components are split into reusable sections:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 🔹 Components (src/components/)
+Each section of the portfolio is a standalone component for modularity and reusability:
 
-## Learn More
+1. **`Hero.tsx`** — Hero banner with introduction and call-to-action.
+2. **`AboutSection.tsx`** — Personal bio, skills, and professional summary.
+3. **`FeaturesSection.tsx`** — Highlight key features or services I offer.
+4. **`TechnologiesSection.tsx`** — Showcase tech stack used in projects.
+5. **`ComparisonSection.tsx`** — Compare my approach vs others (optional).
+6. **`PortfolioSection.tsx`** — Display featured projects with images and links.
+7. **`ExperiencesSection.tsx`** — Work history, roles, and achievements.
+8. **`Testimoni.tsx`** — Client or peer testimonials.
+9. **`QnASection.tsx`** — Frequently asked questions about me or my work.
+10. **`ContactSection.tsx`** — Contact form + social media links.
+11. **`Footer.tsx`** — Site footer with copyright and quick links.
 
-To learn more about Next.js, take a look at the following resources:
+### 🔹 Public Assets (`public/icons/`)
+All static assets like SVGs and PNGs are stored here:
+- Icons: `file.svg`, `globe.svg`, `next.svg`, `people.png`, etc.
+- Images: `edwin.jpg`, `saran_tan.png`, `portfolio_1.png`, etc.
+- Favicon: `favicon.ico`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 🔹 App Layout (`src/app/`)
+- `layout.tsx` — Global layout with metadata, fonts, and shared styles.
+- `page.tsx` — Main page that composes all components.
+- `globals.css` — Global CSS styles (Tailwind or custom).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rikigraha/portofolio_riki_graha.git
+   cd portofolio_riki_graha
